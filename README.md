@@ -1,26 +1,26 @@
-AI Meeting Assistant
+🧠 AI Meeting Assistant
 
 A local AI-powered meeting assistant that listens to your speech, extracts questions, detects intents, and generates instant and refined answers in real-time.
 
 ⚠️ Note: Currently, only main.py is fully functional. Please use it to run the assistant.
 
-Features
+✨ Features
 
-Push-to-talk recording with hotkeys (Alt+M to start, Alt+N to stop)
+🎤 Push-to-talk recording with hotkeys (Alt + M to start, Alt + N to stop)
 
-Real-time transcription using Whisper
+🗣️ Real-time transcription using Whisper
 
-Question extraction from transcribed audio
+❓ Question extraction from transcribed audio
 
-Intent detection with instant response templates
+🎯 Intent detection with instant response templates
 
-AI-generated answers using a local LLM pipeline
+🤖 AI-generated answers using a local LLM pipeline
 
-Overlay UI showing live and final responses
+🖥️ Overlay UI showing live and final responses
 
-Conversation logging to track interactions
+📜 Conversation logging to track interactions
 
-Requirements
+🛠️ Requirements
 
 Python 3.10+
 
@@ -31,21 +31,21 @@ pip install -r requirements.txt
 
 Optional: Create a .env file for any secret keys (currently not used by main.py)
 
-Usage
+🚀 Usage
 
-Run the assistant with:
+Run the assistant:
 
 python main.py
 
-Hotkeys
+🔑 Hotkeys
 
 Alt + M → Start recording
 
 Alt + N → Stop recording
 
-The overlay will show live transcriptions, instant template answers, and final AI-generated answers.
+The overlay will display live transcriptions, instant template answers, and final AI-generated responses.
 
-Project Structure
+📂 Project Structure
 audio/           # Microphone recording modules
 context/         # Question extraction
 intent/          # Intent detection and templates
@@ -58,10 +58,10 @@ main.py          # Fully working assistant
 main_app.py      # Work in progress
 requirements.txt # Python dependencies
 
-Notes
+⚠️ Notes
 
-Keep your secret keys (like Deepgram or Hugging Face tokens) in .env or key.txt — do not push them to GitHub.
+Keep your secret keys (e.g., Deepgram or Hugging Face tokens) in .env or key.txt — do not push them to GitHub.
 
 main_app.py is a work-in-progress and may not run correctly yet.
 
-Contributions are welcome!
+Contributions and suggestions are welcome!
