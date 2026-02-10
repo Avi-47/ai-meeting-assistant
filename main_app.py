@@ -34,7 +34,7 @@ def on_live_text(text: str):
         instant = TEMPLATES[intent]
         ui_queue.put(("instant", instant))
 
-dg = DeepgramStreamer(on_live_text)
+dg = DeepgramStreamer(on_live_text, device_index=1) 
 
 # ------------------ HOTKEY ACTIONS ------------------
 
